@@ -1,2 +1,5 @@
-# vex_fenix_knowledge
-Un simple projet fait pour faire une grande documentation du savoir de fenix343243123123
+# Guide de programmation Vex destiné à l'équipe Fénix 74947
+Créé pas Gabriel Bossé
+
+Un guide destiné à aider à les gens voulant se lancer en programmation
+
