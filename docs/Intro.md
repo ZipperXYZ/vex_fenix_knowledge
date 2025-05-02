@@ -1,6 +1,7 @@
 # Guide de programmation Vex 2025 en C++ 
 
-**Un projet de l'équipe Fenix 74947** destiné à aider les équipes de robotique québécoise voulant se lancer en programmation 😁
+## Un projet de l'équipe Fenix 74947 🐦‍🔥 <!-- {docsify-ignore} -->
+*Un guide destiné à aider les équipes de robotique québécoise voulant se lancer en programmation* 😁
 
 
 ## À propos du guide 📖

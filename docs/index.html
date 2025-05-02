@@ -30,13 +30,20 @@
       maxLevel: 0,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
-
+      coverpage: true,
       // Search Plugin Configuration
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
         // Headline depth, 1 - 6
         depth: 2,
+      },
+
+      // logo
+      logo: '/media/fenixlogo.avif',
+
+      themeable: {
+        readyTransition: true // default
       }
     };
   </script>
@@ -50,6 +57,8 @@
       --theme-saturation: 100%;
       --theme-lightness : 50%;
       --theme-color     : hsl(var(--theme-hue), var(--theme-saturation), var(--theme-lightness));
+
+      --logo-size : 10px
     }
 
     /* Base */
@@ -78,7 +87,7 @@
       /* Selection */
       --selection-color      : #a1a1a1;
 
-      /* Navigation bar */
+      /* side bar */
 
       --sidebar-background                          : #2a2f3f;
       --sidebar-border-color                        : ;
@@ -96,6 +105,7 @@
       --sidebar-name-margin                         : 1.5rem 0 0;
       --sidebar-name-padding                        : ;
       --sidebar-name-text-align                     : center;
+
     }
 
       /* Content
@@ -162,7 +172,11 @@
     --link-text-decoration--hover       : ;
     --link-text-decoration-color        : ;
     --link-text-decoration-color--hover : ;
+
+    
   }
+
+  
   </style>
 
   <!-- Required -->
