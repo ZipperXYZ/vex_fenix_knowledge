@@ -1,6 +1,5 @@
 * Le début
-	* [Introduction](README.md)
-	* [Les bases](test.md)
-	* Test
-		* [Introduction2](README.md)
+	* [Introduction](Intro.md)
+* Les bases
+	* [Les variables](bases/variable.md)
 
