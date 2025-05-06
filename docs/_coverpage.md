@@ -1,5 +1,5 @@
 
-![logo](media/fenixlogo.avif)
+![logo](media/fenixlogo2.avif)
 
 # fenix docs <small>1.0</small>
 
