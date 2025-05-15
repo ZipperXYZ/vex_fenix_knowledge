@@ -24,11 +24,11 @@ Par exemple : **`bool boolArray[2] = { false, true };`**
 Par exemple : 
 
     bool boolArray[2] = { false, true };
-    bool variable = boolArray[0];
+
+    boolArray[0] = true;
 	
-	// la variable va être égal à false parce que la position 0 de l'array est la
-	// valeur false
-	// si l'index aurait été égal à 1 la valeur aurait été true
+	// la variable à la position 1 de l'array va maintenant être égal à true
+	// parce que nous venons de la changer grâce à la ligne en haut
 
 5- Pour lire les valeurs de l'array, inscrivez l'index d'un élément entre crochets.
 

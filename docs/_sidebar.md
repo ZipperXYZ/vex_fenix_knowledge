@@ -6,3 +6,4 @@
 	* [Les fonctions](bases/fonction.md)
 	* [Les conditions If/Else](bases/ifelse.md)
 	* [Les boucles](bases/lesboucles.md)
+	* [Les switch](bases/switch.md)

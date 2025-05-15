@@ -17,7 +17,7 @@
 - Les [**If/else**](bases/ifelse.md)
 - Les [**Boucle for/while**](bases/lesboucles.md)
 - Les [**switch**](bases/switch.md)
-- Les [**Énumération (enum)**](bases/Énumération.md)
+- Les [**Énumération (enum)**](bases/énumération.md)
 - La [**programmation OOP**](programmationOOP.md)
 
 
