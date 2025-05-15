@@ -15,10 +15,9 @@
 - Les [**arrays**](bases/arrays.md)
 - les [**fonctions**](bases/fonction.md)
 - Les [**If/else**](bases/ifelse.md)
-- Les [**Boucle For**](bases/forloop.md)
-- Les [**Boucle While**](bases/whileloop.md)
+- Les [**Boucle for/while**](bases/lesboucles.md)
 - Les [**switch**](bases/switch.md)
-- Les [**opérations**](bases/opération.md)
+- Les [**Énumération (enum)**](bases/Énumération.md)
 - La [**programmation OOP**](programmationOOP.md)
 
 
