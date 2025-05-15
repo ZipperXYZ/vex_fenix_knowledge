@@ -1,7 +1,6 @@
 # Les conditions if/else
 Une condition if else est un peu comme quelqu'un qui veut renter dans un bar. Par exemple, une personne VIP pourra rentrer facilement alors qu'une personne qui n'a pas de pièce d'identité ne pourra pas.
 
-> Par exemple, une personne riche (le grand J.F) pourra rentrer facilement alors qu'une personne pauvre (Philip Bernard) ne pourra pas renter (oui on parle de toi Philip 🫵)
 
 ## Comment créer une conditions
 
