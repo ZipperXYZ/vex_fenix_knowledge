@@ -7,3 +7,4 @@
 	* [Les conditions If/Else](bases/ifelse.md)
 	* [Les boucles](bases/lesboucles.md)
 	* [Les switch](bases/switch.md)
+	* [Les classes](bases/programmationOOP.md)
