@@ -243,4 +243,40 @@ De base, en C++, dans les classes, les variable sont privée. Il est donc pas n�
 		    
 	};  
 
+## L'hériter d'une classe
+
+En C++, il est aussi possible d'hériter d'une classe. Par exemple, nous pourrions avoir une classe de base avec les fonctions de base et des sous-classes qui utilise la classe de base avec ses fonctions et ses propres fonctions.
+
+Voici un exemple:
+
+    // La classe de base
+    class Vehicule {  
+	    public:  
+		    char[] marque = "Honda";  
+	    void Klaxon() {  
+		    // faire quelque chose
+	    }  
+    };  
+      
+    // Derived class  
+	class  Voiture:  public  Vehicle {  
+		public:  
+			void GrosKlaxon() {  
+			    // faire quelque chose
+		    }  
+    };  
+      
+    int main() {  
+	    Voiture MaVoiture;  
+	    Vehicule MaVoiture2;  
+	    
+		MaVoiture.Klaxon();
+	    MaVoiture.GrosKlaxon(); // Les deux fonction pourrons être exécuter car
+							    // la classe Voiture est hérité de Vehicule
+		
+		MaVoiture2.Klaxon // peut être exécuter
+		MaVoiture2.GrosKlaxon // ne peut pas être exécuter car la fonction
+							  // GrosKlaxon n'existe pas dans la classe de base  
+	}	
+
  
