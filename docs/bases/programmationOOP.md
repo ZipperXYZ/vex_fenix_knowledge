@@ -12,7 +12,7 @@ Dans le C++, pour créer des objet, nous utilisons se que nous appelons **des cl
 
 La syntaxe pour créer une classe est très simple: 
 
-    class NomClasse{ // la classe
+    class NomClasse { // la classe
 	    public: // les spécification d'accès (à voir plus tard) 
 		    int Nombre; // les variables (un nombre, par exemple)
     };
@@ -23,7 +23,7 @@ le type d'une classe en C++ est appelé **`class`**
 
 Il est très simple de créer un objet à partir d'une classe.
 
-    class NomClasse{
+    class NomClasse {
 	    public:
 		    int Nombre;
     };
@@ -44,7 +44,7 @@ Il est très simple de créer un objet à partir d'une classe.
 
 Voici un autre exemple dans un contexte plus réaliste: 
 
-    class Voiture{
+    class Voiture {
 	    public:
 		    double Vitesse;
 		    char[] Marque;
@@ -71,7 +71,7 @@ Une méthode est une fonction, mais dans une classe. Par exemple, une classe de 
 
 Voici un exemple en code:
 
-    class Voiture{
+    class Voiture {
 	    public:
 		    double Vitesse;
 		    char[] Marque;
@@ -98,7 +98,7 @@ Il y a aussi possible de déclarer la méthode a l'extérieur de la classe (util
 
 Voici comment faire: 
 
-    class Voiture{
+    class Voiture {
 	    public:
 		    double Vitesse;
 		    char[] Marque;
@@ -114,7 +114,7 @@ Comme vous pouvez le voir, on utilise le "scope resolution `::` operator" (de l'
 
 **Comme des fonctions régulières, vous pouvez aussi passer des paramètres:**
 
-    class Voiture{
+    class Voiture {
 	    public:
 		    double Vitesse;
 		    char[] Marque;
@@ -150,7 +150,7 @@ Voici les règles à suivre:
 
 En voici un  exemple:
 
-    class Voiture{
+    class Voiture {
 	    public:
 		    double Vitesse;
 		    char[] Marque;
@@ -172,7 +172,7 @@ En voici un  exemple:
 
 Voici un exemple: 
 
-	class Voiture{
+	class Voiture {
 	    public:
 		    double VitesseMax;
 		    char[] Marque;
@@ -219,7 +219,7 @@ Il existe plusieurs type de spécificateurs d'accès:
 
 Voici un exemple de classe avec des accès protégés
 
-    class  MaClasse{  
+    class  MaClasse {  
 		public:  // Spécificateurs de l'accès publique
 			int x; // Publique
 		private:  // Spécificateurs de l'accès privé
@@ -234,7 +234,7 @@ Voici un exemple de classe avec des accès protégés
 
 De base, en C++, dans les classes, les variable sont privée. Il est donc pas nécessaire définir l'accès de la variable si elle est privée
 
-    class  MaClasse{  
+    class  MaClasse {  
     
 	    int x; // privé
 
